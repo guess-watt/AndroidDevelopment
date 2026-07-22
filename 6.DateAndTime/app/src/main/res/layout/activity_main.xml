@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvdate1"
+        android:layout_width="207dp"
+        android:layout_height="67dp"
+        android:textSize="24dp"
+        android:text=""
+        />
+
+    <TextView
+        android:id="@+id/tvdate2"
+        android:layout_width="211dp"
+        android:layout_height="99dp"
+        android:layout_marginBottom="48dp"
+        android:text=""
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/tvtime1"
+        android:layout_width="204dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="36dp"
+        android:textSize="24dp"
+        android:text=""
+        />
+
+    <TextView
+        android:id="@+id/tvtime2"
+        android:layout_width="199dp"
+        android:layout_height="74dp"
+        android:textSize="24dp"
+        android:text=""
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="372dp" />
+
+    <Button
+        android:id="@+id/btnshow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:text="Click to show Date Time"
+         />
+</LinearLayout>
