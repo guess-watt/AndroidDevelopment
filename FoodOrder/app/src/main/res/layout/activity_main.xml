@@ -1,0 +1,81 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+
+    <EditText
+        android:id="@+id/name"
+        android:hint="Customer Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:id="@+id/mobile"
+        android:hint="Mobile Number"
+        android:inputType="phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <RadioGroup
+        android:id="@+id/mealGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RadioButton
+            android:id="@+id/veg"
+            android:text="Vegetarian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <RadioButton
+            android:id="@+id/nonVeg"
+            android:text="Non-Vegetarian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RadioGroup>
+
+
+    <CheckBox
+        android:id="@+id/pizza"
+        android:text="Pizza ₹250"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <CheckBox
+        android:id="@+id/burger"
+        android:text="Burger ₹150"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <CheckBox
+        android:id="@+id/sandwich"
+        android:text="Sandwich ₹120"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <CheckBox
+        android:id="@+id/drink"
+        android:text="Soft Drink ₹60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/order"
+        android:text="Place Order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
