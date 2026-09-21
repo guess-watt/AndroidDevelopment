@@ -1,0 +1,61 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/pid"
+        android:hint="Patient ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:hint="Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/age"
+        android:hint="Age"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <RadioGroup
+        android:id="@+id/gender">
+
+        <RadioButton
+            android:id="@+id/male"
+            android:text="Male"/>
+
+        <RadioButton
+            android:id="@+id/female"
+            android:text="Female"/>
+
+    </RadioGroup>
+
+
+    <CheckBox
+        android:id="@+id/checkup"
+        android:text="General Checkup"/>
+
+    <CheckBox
+        android:id="@+id/test"
+        android:text="Blood Test"/>
+
+    <CheckBox
+        android:id="@+id/scan"
+        android:text="Scanning"/>
+
+
+    <Button
+        android:id="@+id/next"
+        android:text="Next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

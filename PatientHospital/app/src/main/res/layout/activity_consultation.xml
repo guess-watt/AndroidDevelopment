@@ -1,0 +1,39 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RadioGroup
+        android:id="@+id/dept">
+
+
+        <RadioButton
+            android:id="@+id/cardio"
+            android:text="Cardiology"/>
+
+
+        <RadioButton
+            android:id="@+id/dental"
+            android:text="Dental"/>
+
+
+        <RadioButton
+            android:id="@+id/general"
+            android:text="General Medicine"/>
+
+
+    </RadioGroup>
+
+
+
+    <Button
+        android:id="@+id/calc"
+        android:text="Calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
