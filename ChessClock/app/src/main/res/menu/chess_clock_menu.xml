@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_pause"
+        android:title="Pause Game" />
+
+    <item
+        android:id="@+id/menu_resume"
+        android:title="Resume Game" />
+
+    <item
+        android:id="@+id/menu_home"
+        android:title="Return Home" />
+
+</menu>

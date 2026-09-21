@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "163256859213",
+    "project_id": "aaaa-d1366",
+    "storage_bucket": "aaaa-d1366.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163256859213:android:6cea3bf6198189d380fa04",
+        "android_client_info": {
+          "package_name": "com.example.chessclock"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqi9By7kKQaYejOKE_gE1UxMCLyj7NZQo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

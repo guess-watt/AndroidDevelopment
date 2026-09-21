@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Chess Clock</string>
+    <string name="player_details">Player Details</string>
+    <string name="player1_hint">Player 1 Name</string>
+    <string name="player2_hint">Player 2 Name</string>
+    <string name="select_time">Select Time</string>
+    <string name="start_game">Start Game</string>
+    <string name="game_history">Game History</string>
+    <string name="one_minute">1 Minute</string>
+    <string name="five_minutes">5 Minutes</string>
+    <string name="ten_minutes">10 Minutes</string>
+    <string name="fifteen_minutes">15 Minutes</string>
+    <string name="error_names">Enter both player names</string>
+    <string name="error_time">Select a time control</string>
+</resources>

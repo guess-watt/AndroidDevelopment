@@ -1,0 +1,14 @@
+- [x] Implement game controls logic in `ChessClockActivity.java`
+    - [x] Initialize buttons (`resetButton`, `playPauseButton`, `stopButton`)
+    - [x] Implement Reset logic with `AlertDialog`
+    - [x] Implement Play/Pause toggle logic
+    - [x] Implement Stop logic with winner selection `AlertDialog`
+- [x] Implement game saving logic
+    - [x] Add `saveGameRecord(String winner, String resultType)` helper
+    - [x] Auto-save on timer expiration (Timeout)
+    - [x] Manual save on Stop button choice
+- [/] Verify functionality
+    - [x] Build project successfully
+    - [ ] Deploy to emulator (Device is currently offline)
+    - [ ] Manual test of Reset, Pause, and Stop
+    - [ ] Verify history updates in `GameHistoryActivity`
